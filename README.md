@@ -1,11 +1,11 @@
 # angular-group
 
 generating a component via cmd
- ng generate component componentname
+ >ng generate component componentname
 to run 
- ng serve
+ >ng serve
 to check whether path is set 
- node --version
+ >node --version
 
 
 used ngIf and event binding for showing details and hiding details
