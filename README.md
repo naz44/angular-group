@@ -9,4 +9,4 @@ to check whether path is set
 
 
 used ngIf and event binding for showing details and hiding details
-""""code in comments is what we did before""""
+""""code in comments is before modifying""""
