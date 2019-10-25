@@ -1,0 +1,57 @@
+<p>group works!</p>
+<table>
+    <tr>
+        <th>First name</th>
+        <td>{{ namef}}</td>
+    </tr>
+    <tr>
+        <th>Last name</th>
+        <td>{{ lastname}}</td> 
+    </tr>
+
+    <tr>
+        <th>Place</th>
+        <td>{{ place}}</td> 
+    </tr>
+    <tr *ngIf='showValues'>
+        <th>Occupation</th>
+        <td>{{ occupation}}</td>
+    </tr>
+
+    <tr *ngIf='showValues'>
+        <th>DOB</th>
+        <td>{{ dob}}</td>
+    </tr>    
+</table>
+
+
+ <button (click) ='showvalues()'>{{ showValues ? "Hide full details" : "Show full details" }}</button> 
+
+<!-- <button [style.background-color]="toggle ? 'cyan' :'pink' "
+(click)="showHide()">{{ status}}</button> -->
+<!-- 
+<div *ngIf="toggle; else elseBlock">
+    <table>
+        <tr>
+            <th>First name</th>
+            <td>{{ namef}}</td>
+        </tr>
+        <tr>
+            <th>Last name</th>
+            <td>{{ lastname}}</td> 
+        </tr>
+        <tr>
+            <th>Place</th>
+            <td>{{ place}}</td>
+        </tr>
+        <tr>
+            <th>Occupation</th>
+            <td>{{ occupation}}</td>
+        </tr>
+        <tr>
+            <th>DOB</th>
+            <td>{{ dob}}</td>
+        </tr>
+    </table>
+</div>
+<ng-template #elseBlock></ng-template> -->
