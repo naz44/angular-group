@@ -7,3 +7,6 @@ to run
 to check whether path is set 
  node --version
 
+
+used ngIf and event binding for showing details and hiding details
+""""code in comments is what we did before""""
